@@ -30,5 +30,5 @@ Pour compiler vous pouvez soit exécuter gcc vous même soit utiliser le makefil
 
 # Autre
 
-Si vous voulez exécuter votre code avec vscode regardez sur google comment modifier task.json et si vous ne trouvez pas vous pouvez me demander.
+Si vous voulez exécuter votre code avec vscode regardez sur google comment modifier task.json et si vous ne trouvez pas vous pouvez me demander.   
 Si vous avez des question mon discord : furtest
