@@ -134,7 +134,7 @@ Tant que vous n'avez pas écrit les structures, le code risque de ne pas compile
     ```c
     int chercheEleve(Eleve eleves[], size_t nb_eleves, char nom[], char prenom[]);
     ```
-    Pour faire cela, utilisez des [fonctions adaptées](https://cplusplus.com/reference/cstring/).
+    Pour faire cela, utilisez des fonctions adaptées.
 
 3. Copie d'appréciation    
     Le prof à la flemme, il veut mettre la même appréciation à tout le monde. Ecrire une fonction prenant en argument un tableau de notes et une appréciation et écrivant cette même apréciation partout.
