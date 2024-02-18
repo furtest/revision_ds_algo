@@ -96,7 +96,7 @@ Tant que vous n'avez pas écrit les structures, le code risque de ne pas compile
 2. Ecrire une fonction permettant à l'utilisateur de saisir une note. Elle doit s'appeler _saisieNote_, ne prendre aucun argument et renvoyer une _Note_.   
     La fonction doit remplir tous les champs d'une structure Note, lors de la saisie de la matière on pourra utiliser le code suivant. On traite ici _matiere_ comme un _int_, si l'utilisateur ne rentre pas une matière valide il faudra mettre la note à -1 et la renvoyer.
     ```c
-    enum matiere;
+    int matiere;
     printf("Choisissez la matiere :\n"
             "1 - Maths\n"
             "2 - Physique\n"
