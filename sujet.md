@@ -15,6 +15,10 @@ ou
 ```
 ## Informations
 
+### Enumerations
+
+J'utilise une enumeration pour stocker la matière dans note, vous n'avez pas à y penser dites vous juste que c'est un `int` pour le reste du code.
+
 ### Fonction getinput
 Je vous fournit une fonction getinput qui permet à l'utilisateur d'entrer une chaîne de caractère libre à vous de l'utiliser ou non.
 Voici le prototype :
@@ -96,7 +100,7 @@ Tant que vous n'avez pas écrit les structures le code risque de ne pas compiler
 2. Ecrire une fonction permettant a l'utilisateur de saisir une note elle doit s'appeler _saisieNote_ ne prendre aucun argument et renvoyer une _Note_.   
     La fonction doit remplir tout les champs d'une structure Note, lors de la saisie de la matière on pourra utiliser le code suivant. On traite ici _matiere_ comme un _int_, si l'utilisateur ne rentre pas une matière valide il faudra mettre la note à -1 et la renvoyer.
     ```c
-    enum matieres matiere;
+    int matiere;
     printf("Choisissez la matiere :\n"
             "1 - Maths\n"
             "2 - Physique\n"
