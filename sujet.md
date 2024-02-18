@@ -69,6 +69,9 @@ typedef struct _dateDeNaissance{
 ```
 
 # Fonctions de base
+
+Tant que vous n'avez pas écrit les structures le code risque de ne pas compiler
+
 ## Affichage des structures
 
 1. Ecrire une fonction permettant d'afficher une note ayant le prototype suivant
