@@ -41,6 +41,7 @@ On va créer trois structures qui vont nous permettre de contenir les données.
 - Un flottant `note`
 - Un coefficient entier non signé
 - Une chaîne de caractères `appreciation`
+- Un flottant `moyenne`
 
 ```c
 typedef struct _note{
