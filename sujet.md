@@ -54,7 +54,7 @@ typedef struct _note{
 `Eleve` qui va contenir :
 - Une chaîne de caractères `nom`
 - Une chaîne de caractères `prenom`
-- Un entier nom signé `date_de_naissance`
+- Une `date_de_naissance`, `struct _dateDeNaissance`
 - Un tableau de struct `_note` appelé notes
 - Le nombre de notes `nombre_notes` de type `size_t` (dans stdlib.h)
 - Un entier non signé `classement`
