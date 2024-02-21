@@ -41,7 +41,6 @@ On va créer trois structures qui vont nous permettre de contenir les données.
 - Un flottant `note`
 - Un coefficient entier non signé
 - Une chaîne de caractères `appreciation`
-- Un flottant `moyenne`
 
 ```c
 typedef struct _note{
@@ -58,6 +57,7 @@ typedef struct _note{
 - Un tableau de struct `_note` appelé notes
 - Le nombre de notes `nombre_notes` de type `size_t` (dans stdlib.h)
 - Un entier non signé `classement`
+- Un flottant `moyenne`
 
 ```c
 typedef struct _eleve{
